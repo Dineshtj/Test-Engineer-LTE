@@ -5,20 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.serenitybdd.starter</groupId>
-    <artifactId>lumea-lui-andrei</artifactId>
+    <artifactId>serenitybdd-junit5-cucumber</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Lumea-lui-Andrei - Serenity BDD project using Cucumber</name>
+    <name>Serenity BDD project using Cucumber</name>
 
     <!-- Project Properties -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>4.0.46</serenity.version>
-        <junit-vintage-engine.version>5.10.1</junit-vintage-engine.version>
-        <junit-platform-suite.version>1.10.1</junit-platform-suite.version>
+        <serenity.version>4.1.0</serenity.version>
+        <junit-vintage-engine.version>5.10.2</junit-vintage-engine.version>
+        <junit-platform-suite.version>1.10.2</junit-platform-suite.version>
         <cucumber-junit-platform-engine.version>7.15.0</cucumber-junit-platform-engine.version>
-        <encoding>UTF-8</encoding>
         <tags></tags>
         <webdriver.base.url></webdriver.base.url>
         <serenity.reports.aggregate>false</serenity.reports.aggregate>
@@ -105,7 +104,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.25.2</version>
+            <version>3.25.3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
