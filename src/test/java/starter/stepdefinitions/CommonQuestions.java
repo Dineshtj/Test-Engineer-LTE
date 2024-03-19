@@ -1,10 +1,10 @@
 package starter.stepdefinitions;
 
-import static net.serenitybdd.rest.SerenityRest.lastResponse;
 import io.restassured.path.json.JsonPath;
 import net.serenitybdd.annotations.Step;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
+import static net.serenitybdd.rest.SerenityRest.lastResponse;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 

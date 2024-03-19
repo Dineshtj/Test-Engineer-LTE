@@ -1,8 +1,8 @@
 package starter.stepdefinitions;
 
 import io.restassured.response.Response;
-import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.annotations.Step;
+import net.serenitybdd.rest.SerenityRest;
 
 
 public class PostCodeAPIActions {

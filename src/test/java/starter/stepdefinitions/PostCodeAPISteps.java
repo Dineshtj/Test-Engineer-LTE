@@ -1,11 +1,12 @@
 package starter.stepdefinitions;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import net.serenitybdd.annotations.Steps;
+
 import java.util.List;
-import io.cucumber.datatable.DataTable;
 
 public class PostCodeAPISteps {
 
@@ -43,5 +44,5 @@ public class PostCodeAPISteps {
         commonQuestions.verifyResponseSchema(spec);
     }
 
-    
+
 }

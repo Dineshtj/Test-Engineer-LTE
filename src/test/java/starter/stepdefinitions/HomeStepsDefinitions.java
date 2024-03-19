@@ -14,7 +14,7 @@ public class HomeStepsDefinitions {
     }
 
     @Given("I click on accept cookies")
-    public void i_click_on_accept_cookies(){
+    public void i_click_on_accept_cookies() {
         navigate.acceptCookies();
     }
 }

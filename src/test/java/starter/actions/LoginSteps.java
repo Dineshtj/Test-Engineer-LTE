@@ -2,8 +2,8 @@ package starter.actions;
 
 import net.serenitybdd.annotations.Step;
 import net.serenitybdd.core.steps.UIInteractionSteps;
-import starter.pageobjects.LoginPage;
 import starter.pageobjects.AccountPage;
+import starter.pageobjects.LoginPage;
 
 public class LoginSteps extends UIInteractionSteps {
 
