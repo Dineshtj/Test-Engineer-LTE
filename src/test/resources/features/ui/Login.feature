@@ -11,9 +11,9 @@ Feature: Login Feature
     And I click on the Login button
     Then I should see the <message> message
     Examples:
-      | email                 | password       | message      |
-      | "test@test.com" | "test123!" | "Acces cont" |
-      | "test@test.com"   | "test123"  | "Acces cont" |
+      | email           | password   | message                |
+      | "test@test.com" | "test123!" | "Bine ai venit, test!" |
+      | "test@test.com" | "test123"  | "Bine ai venit, test!" |
 
   @validLogin
   Scenario: Login with valid credentials
@@ -21,5 +21,5 @@ Feature: Login Feature
     When I enter the email "test@test.com"
     And I enter the password "test123"
     And I click on the Login button
-    Then I should see the "Bine ai venit, Cristina!" message
+    Then I should see the "Bine ai venit, test!" message
 

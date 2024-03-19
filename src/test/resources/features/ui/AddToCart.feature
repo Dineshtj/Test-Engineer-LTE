@@ -10,4 +10,4 @@ Feature: Add to Cart Feature
       And I entered the product name "urs panda" on search bar
       When I click on the search button
       And I click on Add to Cart button
-      Then I should see the product name "Plus National Geographic - Urs panda mare" added on cart
+      Then I should see the product name "Joc Ursuleții talentați - Joc de societate cu figurine adorabile și piese de puzzl]e" added on cart
